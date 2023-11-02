@@ -1,0 +1,111 @@
+@font-face {
+    font-family: loto;
+    src: url(fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+body{
+    font-family: loto;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: loto;
+}
+img{
+    max-width: 100px;
+    height: auto;
+    display: block;
+    
+
+}
+
+
+.section-1{
+background: url(imge/pic-3.jpg);  
+color: chartreuse; 
+padding: 200px 0; 
+text-align: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.section-1 h2{
+font-size: 50px;
+margin-bottom: 25px;
+}
+.section-1 h2 span{
+    color: fuchsia;
+    font-size: 70px;
+}
+
+.section-1 a{
+    text-decoration: none;
+    color: darkorange;
+    border: 3px solid red;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+.section-1 a:hover{
+    border-color: fuchsia;
+    color: green;
+    border-radius: 20px;
+}
+.section-2{
+    height: 250px;
+    width: 250px;
+    margin: 100px auto;
+    background: linear-gradient( 45deg,green 50%, red 50% );
+    transition: 1s;
+    transform: skewX(20deg);
+}
+.section-2:hover{
+    box-shadow: 0 0 35px purple;
+
+}
+.section-3{
+    
+    height: 150px;
+    width: 100px;
+    margin: 100px auto;
+    background: red;
+}
+
+
+
+.section-3 img{
+    transition: 1s;
+}
+.section-3:hover img{
+    transform: translate(20px,30px );
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background: #33d9b2;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.inner-box{
+    height: 120px;
+    width: 120px;
+    background: #ffb142;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    border-radius: 50%;
+
+}
